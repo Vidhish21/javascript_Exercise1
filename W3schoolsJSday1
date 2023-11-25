@@ -1,0 +1,30 @@
+let carName = "Volvo";
+
+const person = {
+  firstName: "John",
+  lastName: "Doe"
+};
+alert(
+person.firstName
+);
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+country: "Norway"
+};
+const person ={
+name: "John",
+age:50
+};
+alert(person.name+ " is " + person.age);
+
+function myFunction() {
+  alert("Hello World!");
+}
+myFunction();
+function myFunction() {
+  document.getElementById("demo").innerHTML= "Hello";
+}
+x = 10;
+y = 5;
+x += y;
