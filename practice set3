@@ -1,0 +1,46 @@
+function onePlusAvg(x,y){
+    return 1+(x+y)/2
+}
+console.log(onePlusAvg(1,5));
+
+const Hello= ()=> {
+    console.log("Hard Work and Smart Work, both will lead you to get successful in your life");
+}
+Hello();
+/*let x=prompt("enter the first number: ")
+x=Number.parseInt(x);
+let y=prompt("enter second number: ");
+y=Number.parseInt(y);
+function onePlusAvg(x,y){
+    return 1+(x+y)/2
+}
+console.log(onePlusAvg(x,y));*/
+//practice set3
+let marks = {
+  Vidhi: 90,
+  Srishti: 89,
+  Yakshi: 87,
+  Vishu: 78
+}
+/*for(let i=0; i<Object.keys(marks).length;i++){
+  console.log("The marks of " + Object.keys(marks)[i] + " are " + marks[Object.keys(marks)[i]);
+}*/
+
+//for in
+for(let key in marks){
+  //console.log(key);
+  console.log("The marks of " + key + " are " + marks[key]);
+}
+
+// 4 
+let cn=4;
+let i;
+while(i!=cn){
+  i=prompt("enter a number: ");
+}
+console.log('You have entered a correct number');
+
+const mean = (a,b,c,d) => {
+  return (a+b+c+d)/4;
+}
+console.log(mean(1,2,3,4));
