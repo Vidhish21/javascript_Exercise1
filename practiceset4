@@ -1,0 +1,13 @@
+let str="Vid\"";
+console.log(str.length);
+const sentence = 'The quick brown fox jumps over the lazy dog.';
+const word = 'fox';
+console.log(`The word "${word}" ${sentence.includes(word) ? 'is' : 'is not'} in the sentence` );
+
+console.log(word.toUpperCase());
+
+let str2="please give RS 1000";
+let amt=Number.parseInt(str2.slice(15));
+console.log(amt);
+console.log(typeof(amt));
+
