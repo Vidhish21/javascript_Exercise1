@@ -1,0 +1,86 @@
+// ARRAYS ARE MUTABLE, THEIR VALUES CAN BE MODIFIED
+//Arrays
+let marks_12 = [91,82,67,78];
+console.log(marks_12);
+console.log(marks_12.length);
+//adding a new value to array
+marks_12[4]=78;
+console.log(marks_12);
+console.log(marks_12.length);
+//changing the value of an array
+marks_12[1]=88;
+console.log(typeof(marks_12));
+
+let a=[1,2,3,4,5];
+for(let i=0;i<a.length;i++){
+    console.log(a[i]);
+}
+// ARRAY METHODS
+let num=[1,2,3,34,4];
+// array to string
+let b = num.toString(); // b is now a string
+console.log(b);
+console.log(typeof(num));
+
+let c= num.join("-");
+console.log(c);
+console.log(typeof(c));
+
+let d=num.pop();
+console.log(num);
+ let e= num.push(56);
+ console.log(num);
+ 
+ let r= num.shift();
+ console.log(num);
+ 
+let f = num.unshift(23);
+console.log(num);
+console.log(f);// returns new array length
+ delete(num[0]);
+ console.log(num);
+ console.log(num.length); // delete is an operator, array length not // affected
+ //concat
+ let a1=[1,2,3];
+ let a2=[23,4,5];
+ let a3=a1.concat(a2);
+ console.log(a1);
+ console.log(a3);
+  let av=[23,45,67,788,223];
+  av.sort();
+  console.log(av);
+  
+  let compare=(a,b)=>{
+      return a-b
+  }
+  av.sort(compare);
+  console.log(av);
+  }
+ av.reverse();
+  console.log(av);
+  //splice
+  //av.splice(2,3, 11,12,13);
+  //console.log(av);
+ let newa= av.slice(2,6);
+ console.log(av);
+  console.log(newa);*/
+  // using loops in array
+  let num=[3,5,1,2,4];
+ /* for(let i=0;i<num.length;i++){
+      console.log(num[i]);
+  }
+  // forEach loop
+  num.forEach((element) => {
+      console.log(element*element);
+  });
+  //Array.from method
+  let name="Vidhi";
+  let arr=Array.from(name);
+  console.log(arr);*/
+  // for........of
+  for(let i of num){
+      console.log(i);
+  }
+  for(let i in num){
+      console.log(i);
+  }
