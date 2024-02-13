@@ -1,0 +1,35 @@
+Creates a new Array with the results of some operation. The Value its callback returns are used to from new array--returns a new array--foreach--does'nt creates a new array
+syntax---arr.map(callbackFnx(val,index,array)
+1) How to Use Map() with an example:
+let nums=[2,3,4,5,6]
+nums.map((val) => {
+    console.log(val);
+});
+
+2) Creation of new array using Map():
+let newArr = nums.map((val) => {
+    return val;
+});
+console.log(newArr);
+//FILTER METHOD
+Creates a new array of elements that give true for a condition/filter
+let arr=[1,2,3,4,5,6,7]
+let evenArr = arr.filter( (val) => {
+    return val % 2==0;
+})
+console.log(evenArr);
+//REDUCE ARRAY METHOD
+performs some operations and reduces the array to a single value
+It returns that single value
+const a=[1,2,3,4];
+const output = a.reduce((prev, curr) => {
+    return prev + curr;
+})
+console.log(output);
+
+//largest number in an array
+const a=[1,21,3,4];
+const output = a.reduce((prev, curr) => {
+    return prev>curr ? prev:curr;
+})
+console.log(output);
