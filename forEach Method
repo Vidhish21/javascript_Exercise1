@@ -1,0 +1,18 @@
+//forEach Method---Higher order func/method
+//Higher order function---using other fun as a parameter or returning vale to that function 
+//forEcah Method...to create a loop
+//functions can be passed as parameters in js....
+let arr=["vidhi you are the best"];
+arr.forEach((val, idx, arr) => { //val=value at each index
+    console.log(val.toUpperCase(), idx, arr);
+});
+//syntax foreach---value,indx,array itself-these parameters--optional//forEach---only used with arrays...used when we need to perform some oepartions with an array
+let nums=[2,3,4,5,6]
+nums.forEach((num)=>{
+    console.log(num*num);
+})
+//another way
+let calSquare = (nums)=>{
+    console.log(nums*nums);
+}
+nums.forEach(calSquare);
